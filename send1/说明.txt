@@ -1,0 +1,4 @@
+send1
+	通过tornado框架，编写厂级MES工单下发接口服务端
+
+	tornado客户端无法在服务循环过程中已事件方式创建，变根使用requests库创建客户端
